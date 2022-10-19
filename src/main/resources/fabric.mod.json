@@ -17,6 +17,9 @@
   "entrypoints": {
     "main": [
       "mc.froggeater.basket.FroggBasket"
+    ],
+    "client": [
+      "mc.froggeater.basket.FroggBasketClient"
     ]
   },
   "mixins": [
