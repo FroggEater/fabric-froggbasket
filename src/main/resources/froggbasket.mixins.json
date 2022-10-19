@@ -1,7 +1,7 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "fr.froggeater.basket.mixin",
+  "package": "mc.froggeater.basket.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
   ],

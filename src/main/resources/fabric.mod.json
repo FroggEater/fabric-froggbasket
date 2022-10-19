@@ -2,7 +2,6 @@
   "schemaVersion": 1,
   "id": "froggbasket",
   "version": "${version}",
-
   "name": "FroggBasket",
   "description": "Lorem ipsum",
   "authors": [
@@ -12,20 +11,17 @@
     "homepage": "https://fabricmc.net/",
     "sources": "https://github.com/FabricMC/fabric-example-mod"
   },
-
   "license": "CC0-1.0",
   "icon": "assets/froggbasket/icon.png",
-
   "environment": "*",
   "entrypoints": {
     "main": [
-      "fr.froggeater.basket.FroggBasket"
+      "mc.froggeater.basket.FroggBasket"
     ]
   },
   "mixins": [
     "froggbasket.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.14.9",
     "fabric-api": "*",

@@ -1,4 +1,4 @@
-package fr.froggeater.basket.entity.ability;
+package mc.froggeater.basket.entity.ability;
 
 public class Ability {
     public int recharge;

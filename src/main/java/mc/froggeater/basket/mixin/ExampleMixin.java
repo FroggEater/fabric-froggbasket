@@ -1,6 +1,6 @@
-package fr.froggeater.basket.mixin;
+package mc.froggeater.basket.mixin;
 
-import fr.froggeater.basket.FroggBasket;
+import mc.froggeater.basket.FroggBasket;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -9,8 +9,8 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(TitleScreen.class)
 public class ExampleMixin {
-	@Inject(at = @At("HEAD"), method = "init()V")
-	private void init(CallbackInfo info) {
-		FroggBasket.LOGGER.info("This line is printed by an example mod mixin!");
-	}
+    @Inject(at = @At("HEAD"), method = "init()V")
+    private void init(CallbackInfo info) {
+        FroggBasket.LOGGER.info("This line is printed by an example mod mixin!");
+    }
 }
